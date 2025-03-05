@@ -29,6 +29,7 @@
 
 .fade-in-left {
     animation: fadeInFromLeft 1s ease-out;
+    font-size: 2em;
 }
 
 .fade-in-right {
