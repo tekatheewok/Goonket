@@ -1,2 +1,0 @@
-# Goonket
-WORK IN PROGRESS
