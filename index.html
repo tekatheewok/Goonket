@@ -4,12 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Goonket</title>
+    <style>
+        @keyframes fadeInFromLeft {
+            0% {
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100% {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+        .fade-in {
+            animation: fadeInFromLeft 1s ease-out;
+        }
+    </style>
 </head>
 <body>
-    Hello! Welcome to Goonket Corporation©. Our website is a WIP. Please check back later!
-    <br>
-    <a href="https://www.roblox.com/users/4917253900/profile" target="_blank">
-        <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-4740F8FF83419F71F1EC8BB2C065A3D6-Png/150/150/AvatarHeadshot/Webp/noFilter" alt="Roblox Profile" style="width:100px;height:100px;">
-    </a>
+    <div class="fade-in">
+        Hello! Welcome to Goonket Corporation©. Our website is a WIP. Please check back later!
+        <br>
+        <a href="https://www.roblox.com/users/4917253900/profile" target="_blank">
+            <img src="https://tr.rbxcdn.com/30DAY-AvatarHeadshot-4740F8FF83419F71F1EC8BB2C065A3D6-Png/150/150/AvatarHeadshot/Webp/noFilter" alt="Roblox Profile" style="width:100px;height:100px;">
+        </a>
+    </div>
 </body>
 </html>
