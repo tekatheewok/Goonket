@@ -8,6 +8,7 @@
         transform: translateX(0);
     }
 }
+
 @keyframes fadeInFromRight {
     0% {
         opacity: 0;
@@ -18,15 +19,24 @@
         transform: translateX(0);
     }
 }
+
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
+
 .fade-in-left {
     animation: fadeInFromLeft 1s ease-out;
 }
+
 .fade-in-right {
     animation: fadeInFromRight 1s ease-out;
+}
+
+.profile-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
 }
