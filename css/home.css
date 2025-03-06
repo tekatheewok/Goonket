@@ -84,7 +84,7 @@ body {
 }
 
 .login-button, .play-btn {
-    background-color: #3cb7c0; 
+    background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -95,7 +95,7 @@ body {
 }
 
 .login-button:hover, .play-btn:hover {
-    background-color: #30848a; 
+    background-color: #29eaf8; 
     border: 1px solid rgb(255, 255, 255);
 }
 
