@@ -74,7 +74,7 @@ body {
     margin-bottom: 20px;
     width: 100%;
     height: 100px;
-    background-image: linear-gradient(to right, #5ff4ff, #3da8af);
+    background-image: linear-gradient(to right, #5ff4ff, #3da1a8);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
@@ -84,7 +84,7 @@ body {
 }
 
 .login-button, .play-btn {
-    background-color: #007BFF; 
+    background-color: #3cb7c0; 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -95,8 +95,8 @@ body {
 }
 
 .login-button:hover, .play-btn:hover {
-    background-color: #0056b3; 
-    border: 1px solid black;
+    background-color: #30848a; 
+    border: 1px solid rgb(255, 255, 255);
 }
 
 .play-btn {
