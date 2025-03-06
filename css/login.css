@@ -7,6 +7,8 @@
     background-image: linear-gradient(to right, #5ff4ff, #3da8af);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 0; 
+    overflow: hidden; /* prevents scrollbars */
 }
 
 .login-header {
@@ -73,4 +75,10 @@
 
 .login-footer a:hover {
     text-decoration: underline;
+}
+
+.login-logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
 }
