@@ -128,3 +128,12 @@
     background-color: #3da8af;
     color: #fff;
 }
+
+.passwordtxt, .usernametxt {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.register {
+    text-decoration: none;
+}
