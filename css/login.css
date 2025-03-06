@@ -1,5 +1,6 @@
 html, body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -9,27 +10,18 @@ html, body {
     background-image: linear-gradient(to right, #5ff4ff, #3da8af);
 }
 
-.login-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.9);
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
 .special-header {
+    width: 100%;
+    position: absolute;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
     padding: 15px 30px;
     background-color: #333;
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 10px 10px 0 0;
+    border-radius: 0 0 10px 10px;
 }
 
 .special-header .logo {
@@ -55,6 +47,18 @@ html, body {
 .special-header .header-button:hover {
     background-color: #3da8af;
     color: #fff;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px; /* Adjust for header height */
 }
 
 .login-header {
