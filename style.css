@@ -31,6 +31,7 @@ body {
     justify-content: center;
     margin-bottom: 400px;
     height: 100vh;
+    margin-top: 20px;
 }
 
 .fade-in-left {
