@@ -3,44 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log in</title>
-    <link rel="stylesheet" href="/css/login.css">
+    <title>Goonket</title>
+    <link rel="stylesheet" href="/css/home.css">
     <link rel="icon" href="goonket logo v2.ico" type="image/x-icon">
-    <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            background-image: linear-gradient(to right, #5ff4ff, #3da8af);
-        }
-    </style>
 </head>
+
 <body>
-    <div class="special-header">
-        <div class="logo">Goonket</div>
-        <div class="header-buttons">
-            <button class="header-button" onclick="window.location.href='/'">Home</button>
-            <button class="header-button" onclick="window.location.href='/play'">Play</button>
-        </div>
-    </div>
-    <div class="login-container">
-        <div class="login-header">
-            <img src="goonket logo.png" alt="Goonket Logo" class="login-logo">
-            <h1>Welcome Back!</h1>
-            <p>Please log in to your account</p>
-        </div>
-        <form class="login-form">
-            <input type="text" placeholder="Username" required>
-            <input type="password" placeholder="Password" required>
-            <button type="submit" class="login-button">Log In</button>
-        </form>
-        <div class="login-footer">
-            <p>Don't have an account? <a class="register" href="/register" onclick="event.preventDefault();">Register now</a></p>
+    <div class="container">
+        <div class="login-box">
+            <h1>Login</h1>
+            <form >
+                <div class="textbox">
+                    <input type="text" name="username" placeholder="Username" required>
+                </div>
+                <div class="textbox">
+                    <input type="password" name="password" placeholder="Password" required>
+                </div>
+                <input type="submit" class="btn" value="Login">
+            </form>
+            <a href="register.html">Don't have an account? Register here</a>
         </div>
     </div>
 </body>
