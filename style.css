@@ -31,7 +31,7 @@ body {
     justify-content: center;
     margin-bottom: 400px;
     height: 100vh;
-    margin-top: 20px;
+
 }
 
 .fade-in-left {
@@ -42,6 +42,7 @@ body {
 
 .fade-in-right {
     animation: fadeInFromRight 1s ease-out;
+    margin-top: 20px;
 }
 
 .profile-image {
