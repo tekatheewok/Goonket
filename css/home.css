@@ -84,7 +84,7 @@ body {
 }
 
 .login-button, .play-btn {
-    background-color: #ffffff;
+    background-color: #007BFF; 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -95,16 +95,12 @@ body {
 }
 
 .login-button:hover, .play-btn:hover {
+    background-color: #0056b3; 
     border: 1px solid black;
 }
 
-
 .play-btn {
     margin-right: 40px;
-}
-
-.login-button:hover, .play-btn:hover {
-    background-color: #e0e0e0;
 }
 
 .footer-hr {
