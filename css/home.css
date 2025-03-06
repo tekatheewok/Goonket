@@ -50,6 +50,7 @@ body {
     height: 75px;
     object-fit: cover;
     border: 1px solid white;
+    border-radius: 5px;
 }
 
 .profile-image .header{
