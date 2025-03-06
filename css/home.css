@@ -90,14 +90,15 @@ body {
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease, border 0.3s ease;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
     height: 60px;
     width: 120px;
 }
 
 .login-button:hover, .play-btn:hover {
-    background-color: #29eaf8; 
-    border: 1px solid rgb(255, 255, 255);
+    background-color: #9ee4e9; 
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
 }
 
 .play-btn {
