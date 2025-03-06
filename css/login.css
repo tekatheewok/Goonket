@@ -19,9 +19,11 @@
     gap: 20px;
 }
 
-.logo{
-    height: 100px;
-    width: 100px;
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
     align-self: center;
 }
 
