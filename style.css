@@ -97,6 +97,10 @@ body {
 .login-button:hover, .play-btn:hover {
     border: 1px solid black;
 }
+
+.login-button {
+    width: 100%;
+}
 .play-btn {
     margin-right: 40px;
 }
