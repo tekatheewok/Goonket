@@ -26,6 +26,11 @@
     color: #333;
 }
 
+.logintxt:hover {
+    cursor: default;
+}
+
+
 .login-form {
     display: flex;
     flex-direction: column;
