@@ -13,11 +13,11 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(to right, #5ff4ff, #3199a0);
+    height: 100vh;
+    background-image: linear-gradient(to right, #5ff4ff, #3da8af);
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 0;
-    height: 100%;
 }
 
 .login-header {
@@ -36,14 +36,9 @@ html, body {
     color: #333;
 }
 
-.logintxt:hover {
-    cursor: default;
-}
-
 .login-form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     gap: 15px;
     width: 100%;
     max-width: 400px;
@@ -65,17 +60,6 @@ html, body {
     cursor: pointer;
     border-radius: 5px;
     transition: background-color 0.3s ease, border 0.3s ease;
-}
-
-.login-button {
-    width: 422px;
-    align-self: center;
-    background-color: #5ff4ff;
-}
-
-.login-button:hover {
-    background-color: #3da8af;
-    color: white;
 }
 
 .login-form .login-button:hover {
@@ -100,57 +84,4 @@ html, body {
 
 .login-footer a:hover {
     text-decoration: underline;
-}
-
-.login-logo {
-    width: 200px;
-    height: 100px;
-    margin-bottom: 20px;
-}
-
-.special-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #333;
-    color: #fff;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 100%;
-    position: absolute;
-    top: 0;
-}
-
-.special-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
-}
-
-.special-header .header-buttons {
-    display: flex;
-    gap: 20px;
-}
-
-.special-header .header-button {
-    background-color: #5ff4ff;
-    border: none;
-    padding: 10px 20px;
-    font-size: 1em;
-    cursor: pointer;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.special-header .header-button:hover {
-    background-color: #3da8af;
-    color: #fff;
-}
-
-.passwordtxt, .usernametxt {
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-.register {
-    text-decoration: none;
 }
