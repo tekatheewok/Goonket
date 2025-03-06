@@ -58,7 +58,8 @@
 }
 
 .login-button {
-    width:422px;
+    width:300px;
+    align-self: center;
 }
 
 .login-form .login-button:hover {
