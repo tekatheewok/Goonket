@@ -59,8 +59,13 @@
 }
 
 .login-button {
-    width:300px;
+    width:422;
     align-self: center;
+    background-color: #5ff4ff;
+}
+
+.login-button:hover {
+    
 }
 
 .login-form .login-button:hover {
