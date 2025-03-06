@@ -19,8 +19,15 @@
     gap: 20px;
 }
 
+.logo{
+    height: 100px;
+    width: 100px;
+    align-self: center;
+}
+
 .login-box h1 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2em;
     color: #333;
+}
