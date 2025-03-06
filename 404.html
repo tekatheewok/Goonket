@@ -41,15 +41,15 @@
         }
     </style>
     <script>
-        const path = window.location.pathname;
+        const hash = window.location.hash;
 
-        if (path === '/login') {
-            window.location.replace('/login.html');
-        } else if (path === '/play') {
-            window.location.replace('/play.html');
-        } else {
-            window.location.replace('/');
-        }
+     if (hash === '#login') {
+        window.location.replace('/redirects/login.html');
+     } else if (hash === '#play') {
+         window.location.replace('/redirects/play.html');
+     } else {
+         window.location.replace('/');
+    }
     </script>
 </head>
 <body>
