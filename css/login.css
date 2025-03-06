@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Remove scrollbar */
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -16,7 +22,8 @@
     border-radius: 10px;
     background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 20px;
+    gap: 10px; 
+    align-items: center; 
 }
 
 .logo {
@@ -29,7 +36,21 @@
 
 .login-box h1 {
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px; 
     font-size: 2em;
     color: #333;
+}
+
+.textbox input, .passwordbox input {
+    border: none; 
+    border-bottom: 1px solid #ccc; 
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.loginbox button {
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
 }
