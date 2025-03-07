@@ -26,6 +26,11 @@ body {
     align-items: center; 
 }
 
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+
 .logo {
     height: auto;
     width: auto;
