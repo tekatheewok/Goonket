@@ -125,19 +125,25 @@ body {
     gap: 10px;
 }
 
-.home-btn, .play-btn {
-    background-color: #32a3ac;
+.login-button, .play-btn {
+    background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background-color 0.3s ease, color 0.3s ease;
-    margin: 10px;
+    transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
+    height: 60px;
+    width: 120px;
+}
+
+.login-button:hover, .play-btn:hover {
+    background-color: #14cedb; 
+    color: white;
 }
 
 .play-btn {
-    margin-right: 30px;
+    margin-right: 40px;
 }
 
 .home-btn:hover, .play-btn:hover {
