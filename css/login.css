@@ -39,6 +39,7 @@ body {
     max-height: 150px; 
     max-width: 150px; 
     align-self: center;
+    margin: 10px;
 }
 
 .login-box h1 {
@@ -72,6 +73,7 @@ body {
 
 .usernameinput:active, .passwordinput:active{
     border: none;
+    margin: 10px;
 
 }
 
@@ -79,8 +81,10 @@ body {
     width: 200px;
     background-color: #32a3ac;
     color: white;
+    transition: background-color 0.3s;
+    margin: 10px;
 }
 
 .submit:hover{
-    background-color: #3da8af;
+    background-color: #32c6d1;
 }
