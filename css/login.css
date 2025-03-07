@@ -129,6 +129,13 @@ body {
     color: white;
 }
 
-.header{
-    background-image: linear-gradient(to right #5ff4ff, #3da8af);
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(to right, #5ff4ff, #3da8af);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
