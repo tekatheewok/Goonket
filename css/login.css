@@ -133,7 +133,6 @@ body {
 
 .header-buttons {
     display: flex;
-    gap: 10px;
 }
 
 .home-btn, .play-btn {
@@ -146,7 +145,7 @@ body {
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
     height: 60px;
     width: 120px;
-    margin: 20px;
+    margin: 10px;
 }
 
 .home-btn:hover, .play-btn:hover {
