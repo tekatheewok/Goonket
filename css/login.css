@@ -66,3 +66,13 @@ body {
     border: none;
 
 }
+
+.submit{
+    width: 200px;
+    background-color: #32a3ac;
+    color: white;
+}
+
+.submit:hover{
+    background-color: #3da8af;
+}
