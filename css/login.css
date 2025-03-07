@@ -138,4 +138,5 @@ body {
     height: 100px;
     background-image: linear-gradient(to right, #5ff4ff, #3da8af);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid red; /* Add this line for debugging */
 }
