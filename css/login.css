@@ -125,7 +125,7 @@ body {
     gap: 10px;
 }
 
-.login-button, .play-btn {
+.home-btn, .play-btn {
     background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
@@ -135,9 +135,10 @@ body {
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
     height: 60px;
     width: 120px;
+    margin: 20px;
 }
 
-.login-button:hover, .play-btn:hover {
+.home-btn:hover, .play-btn:hover {
     background-color: #14cedb; 
     color: white;
 }
