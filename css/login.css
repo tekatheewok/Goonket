@@ -94,3 +94,13 @@ body {
     justify-content: center;
     flex-direction: column;
 }
+
+.registernowtxt{
+    text-align: center;
+    margin: 10px;
+}
+
+.registernow{
+    color: #32a3ac;
+    text-decoration: none;
+}
