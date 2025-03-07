@@ -87,6 +87,7 @@ body {
 
 .submit:hover{
     background-color: #32c6d1;
+    cursor: pointer;
 }
 
 .login-box{
