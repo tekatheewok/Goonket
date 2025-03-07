@@ -1,13 +1,14 @@
 body {
     margin: 0;
     padding: 0;
+    overflow: hidden; 
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 100px); 
     background-image: linear-gradient(to right, #5ff4ff, #3da8af);
 }
 
@@ -71,9 +72,7 @@ body {
     margin: 10px;
 }
 
-
-
-.submit{
+.submit {
     width: 300px;
     background-color: #32a3ac;
     color: white;
@@ -84,23 +83,23 @@ body {
     border: none;
 }
 
-.submit:hover{
+.submit:hover {
     background-color: #32c6d1;
     cursor: pointer;
 }
 
-.login-box{
+.login-box {
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
 
-.registernowtxt{
+.registernowtxt {
     text-align: center;
     margin: 10px;
 }
 
-.registernow{
+.registernow {
     color: #32a3ac;
     text-decoration: none;
 }
@@ -111,6 +110,7 @@ body {
     align-items: center;
     padding: 10px 20px;
     width: 100%;
+    height: 100px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
