@@ -69,13 +69,10 @@ body {
     padding: 10px;
     width: 100%;
     box-sizing: border-box;
-}
-
-.usernameinput:active, .passwordinput:active{
-    border: none;
     margin: 10px;
-
 }
+
+
 
 .submit{
     width: 300px;
