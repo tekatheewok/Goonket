@@ -114,8 +114,7 @@ body {
     padding: 10px 20px;
     width: 100%;
     height: 100px;
-    background-image: linear-gradient(to right, #5ff4ff, #3da8af);
-    border-bottom: 1px solid black;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
