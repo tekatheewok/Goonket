@@ -10,6 +10,7 @@ window.onload = async () => {
             console.log('Response from API:', result); // Log API response
 
             const messageElement = document.getElementById('message');
+            messageElement.style.display = 'block';
 
             if (response.ok) {
                 messageElement.innerHTML = '<p style="color: green;">Email verified successfully! You can now log in.</p>';
