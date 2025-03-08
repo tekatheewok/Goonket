@@ -20,6 +20,6 @@ form.addEventListener('submit', async (e) => {
        
     } catch (error) {
         console.error('Error registering:', error.response.data);
-        alert('Registration failed. Please try again.');
+        alert('Username or email taken, Please try again!');
     }
 });
