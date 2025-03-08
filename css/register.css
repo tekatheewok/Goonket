@@ -171,6 +171,7 @@ body {
     height: 50px;
     background-color: white;
     display: flex;
+    align-items: center;
 }
 
 
@@ -181,5 +182,6 @@ body {
 .message-text {
     font-size: 18px;
     color: #333;
-    margin-bottom: 20px;
+    margin: 20px;
+
 }
