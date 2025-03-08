@@ -44,5 +44,39 @@
         <span id="messageText"></span>
     </div>
     <script src="js/register.js"></script>
+    <script>
+        document.getElementById('registerForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            axios.post('/api/register', {
+                email: document.getElementById('email').value,
+                username: document.getElementById('username').value,
+                password: document.getElementById('password').value
+            })
+            .then(function(response) {
+                // Show success message
+                const messageBox = document.getElementById('messageBox');
+                const messageText = document.getElementById('messageText');
+                messageText.textContent = 'Registration successful!';
+                messageBox.classList.remove('error');
+                messageBox.classList.add('success');
+                messageBox.style.display = 'flex';
+                setTimeout(() => {
+                    messageBox.style.opacity = 1;
+                }, 10);
+            })
+            .catch(function(error) {
+                // Show error message
+                const messageBox = document.getElementById('messageBox');
+                const messageText = document.getElementById('messageText');
+                messageText.textContent = 'Registration failed. Please try again.';
+                messageBox.classList.remove('success');
+                messageBox.classList.add('error');
+                messageBox.style.display = 'flex';
+                setTimeout(() => {
+                    messageBox.style.opacity = 1;
+                }, 10);
+            });
+        });
+    </script>
 </body>
 </html>
