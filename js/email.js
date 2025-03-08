@@ -4,8 +4,10 @@ window.onload = async () => {
 
     if (token) {
         try {
-            const response = await fetch(`https://goonket.com/verify-email?token=${token}`);
+            const response = await fetch(`https://api.goonket.com/verify-email?token=${token}`);
             const result = await response.json();
+
+            console.log('Response from API:', result); // Log API response
 
             const messageElement = document.getElementById('message');
 
@@ -15,6 +17,7 @@ window.onload = async () => {
                 messageElement.innerHTML = `<p style="color: red;">${result.message}</p>`;
             }
         } catch (error) {
+            console.error('Error during email verification:', error); // Log error
             document.getElementById('message').innerHTML = '<p style="color: red;">Something went wrong. Please try again later.</p>';
         }
     } else {
