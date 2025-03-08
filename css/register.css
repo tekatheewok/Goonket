@@ -189,6 +189,7 @@ body {
 .welcometxtcontainer {
     display: flex;
     justify-content: flex-start;
+    height: 30px;
 }
 
 
