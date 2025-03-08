@@ -91,12 +91,6 @@ body {
     cursor: pointer;
 }
 
-.login-box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .registernowtxt {
     text-align: center;
     margin: 10px;
