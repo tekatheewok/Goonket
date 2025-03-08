@@ -139,7 +139,7 @@ body {
     display: flex;
 }
 
-.home-btn, .play-btn, .about-btn:hover, .contact-btn:hover, .faq-btn:hover {
+.home-btn, .play-btn, .about-btn, .contact-btn, .faq-btn {
     background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
