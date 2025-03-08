@@ -6,6 +6,9 @@ form.addEventListener('submit', async (e) => {
     const username = document.getElementById('username').value;
     const password = document.getElementById('password').value;
 
+    console.log(username)
+    console.log(password)
+
     try {
         const response = await axios.post('https://api.goonket.com/register', {
             username,
