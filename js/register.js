@@ -11,9 +11,6 @@ form.addEventListener('submit', async (e) => {
     const messageText = document.getElementById('messageText');
     const messageIcon = document.getElementById('messageIcon');
 
-    messageBox.style.display = 'flex';
-    messageBox.style.opacity = 0;
-
     try {
         const response = await axios.post('https://api.goonket.com/register', {
             username,
@@ -33,4 +30,9 @@ form.addEventListener('submit', async (e) => {
         messageBox.classList.add('error');
         messageBox.classList.remove('success');
     }
+
+    messageBox.style.display = 'flex';
+    setTimeout(() => {
+        messageBox.style.opacity = 1;
+    }, 50);
 });
