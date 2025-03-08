@@ -18,20 +18,20 @@
     </div>
     <div class="container">
         <div class="login-box">
-            <h1>Login</h1>
-            <form class="login-form">
+            <h1>Register</h1>
+            <form class="login-form" action="https://api.goonket.com/register" method="POST">
                 <img src="goonket logo v2.ico" class="logo" alt="Goonket Logo">
                 <div class="textbox">
-                    <input type="text" placeholder="Username" class="usernameinput" required>
-                    </div>
-                    <div class="passwordbox">
-                    <input type="password" placeholder="Password" class="passwordinput" required>
-                    </div>
-                    <div class="loginbox">
-                    <button class="submit">Log in</button>
-                    </div>
-                </form>
-            <p class="registernowtxt">Don't have an account? <a class="registernow" href="/register">Register now</a></p>
+                    <input type="text" name="username" placeholder="Username" class="usernameinput" required>
+                </div>
+                <div class="passwordbox">
+                    <input type="password" name="password" placeholder="Password" class="passwordinput" required>
+                </div>
+                <div class="loginbox">
+                    <button type="submit" class="submit">Register</button>
+                </div>
+            </form>
+            <p class="registernowtxt">Already have an account? <a class="registernow" href="/login">Login now</a></p>
         </div>
     </div>
 </body>
