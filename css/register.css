@@ -136,6 +136,7 @@ body {
 
 .header-buttons {
     display: flex;
+    justify-content: flex-end;
 }
 
 .home-btn, .play-btn, .about-btn, .contact-btn, .faq-btn {
@@ -152,10 +153,6 @@ body {
 }
 
 
-
-.faq-btn {
-    margin-right: 20px;
-}
 
 .home-btn:hover, .play-btn:hover, .about-btn:hover, .contact-btn:hover, .faq-btn:hover {
     background-color: #32c6d1;
