@@ -117,6 +117,7 @@ body {
     background-image: linear-gradient(to right, #5ff4ff, #3da8af);
     border-bottom: 1px solid black;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
 }
 
 .profile-image {
@@ -124,19 +125,13 @@ body {
     height: 75px;
     object-fit: cover;
     border: 1px solid white;
-    border-radius: 15px;
-}
-
-.profile-image .header{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    align-items: flex-start;
-    margin-left: 20px;
+    border-radius: 50%;
+    margin-right: 20px;
 }
 
 .header-buttons {
     display: flex;
+    gap: 20px;
 }
 
 .home-btn, .play-btn {
@@ -207,4 +202,8 @@ body {
     margin-top: 10px;
     font-size: 1.2em;
     color: #333;
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    bottom: 10px;
 }
