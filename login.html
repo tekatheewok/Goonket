@@ -6,6 +6,7 @@
     <title>Goonket</title>
     <link rel="stylesheet" href="/css/login.css">
     <link rel="icon" href="goonket logo v2.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
 
 <body>
@@ -19,13 +20,13 @@
     <div class="container">
         <div class="login-box">
             <h1>Register</h1>
-            <form class="login-form" action="https://api.goonket.com/register" method="POST">
+            <form class="login-form" id="registerForm">
                 <img src="goonket logo v2.ico" class="logo" alt="Goonket Logo">
                 <div class="textbox">
-                    <input type="text" name="username" placeholder="Username" class="usernameinput" required>
+                    <input type="text" id="username" placeholder="Username" class="usernameinput" required>
                 </div>
                 <div class="passwordbox">
-                    <input type="password" name="password" placeholder="Password" class="passwordinput" required>
+                    <input type="password" id="password" placeholder="Password" class="passwordinput" required>
                 </div>
                 <div class="loginbox">
                     <button type="submit" class="submit">Register</button>
@@ -34,5 +35,6 @@
             <p class="registernowtxt">Already have an account? <a class="registernow" href="/login">Login now</a></p>
         </div>
     </div>
+    <script src="js/register.js"></script>
 </body>
 </html>
