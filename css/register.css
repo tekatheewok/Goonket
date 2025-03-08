@@ -69,7 +69,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    width: 100px;
+    width: 150px;
 }
 
 .usernameinput, .passwordinput, .emailinput {
