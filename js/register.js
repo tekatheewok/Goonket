@@ -46,8 +46,3 @@ form.addEventListener('submit', async (e) => {
 
 
 
-document.getElementById("submit").onclick = function() {
-    var newDiv = document.createElement("div");
-    newDiv.className = "message-box"
-    document.body.appendChild(newDiv); 
-};
