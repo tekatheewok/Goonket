@@ -185,6 +185,13 @@ body {
 
 }
 
+
+.welcometxtcontainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
 .welcometxt{
     color: black;
     margin: 20px;
