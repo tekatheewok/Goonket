@@ -190,6 +190,7 @@ body {
     display: flex;
     justify-content: flex-start;
     height: 121px;
+    align-items: center;
 }
 
 
