@@ -49,7 +49,7 @@ body {
     color: #333;
 }
 
-.textbox input, .passwordbox input {
+.textbox input, .passwordbox input, .emailbox input {
     border: none; 
     border-bottom: 1px solid #ccc; 
     padding: 10px;
@@ -63,7 +63,7 @@ body {
     box-sizing: border-box;
 }
 
-.usernameinput, .passwordinput{
+.usernameinput, .passwordinput, .emailinput {
     border: none;
     border-bottom: 1px solid #ccc;
     padding: 10px;
@@ -161,4 +161,5 @@ body {
     background-color: #32c6d1;
     color: white;
 }
+
 
