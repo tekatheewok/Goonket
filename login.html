@@ -34,21 +34,5 @@
             <p class="registernowtxt">New to goonket? <a class="registernow" href="/register">Register now</a></p>
         </div>
     </div>
-    <div id="message-box" class="message-box">
-        <div class="message-content">
-            <span class="close-btn" onclick="closeMessageBox()">&times;</span>
-            <p>Registration successful! Please log in.</p>
-        </div>
-    </div>
-    <script>
-        document.getElementById('registerForm').addEventListener('submit', function(event) {
-            event.preventDefault();
-            document.getElementById('message-box').style.display = 'block';
-        });
-
-        function closeMessageBox() {
-            document.getElementById('message-box').style.display = 'none';
-        }
-    </script>
 </body>
 </html>
