@@ -50,6 +50,7 @@ body {
     height: 75px;
     object-fit: cover;
     border-radius: 15px;
+    border: 2px solid #08c4d4;
 }
 
 .header {
