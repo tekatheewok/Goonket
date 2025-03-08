@@ -7,6 +7,13 @@ form.addEventListener('submit', async (e) => {
     const password = document.getElementById('password').value;
     const email = document.getElementById('email').value;
 
+    const messageBox = document.getElementById('messageBox');
+    const messageText = document.getElementById('messageText');
+    const messageIcon = document.getElementById('messageIcon');
+
+    messageBox.style.display = 'flex';
+    messageBox.style.opacity = 0;
+
     try {
         const response = await axios.post('https://api.goonket.com/register', {
             username,
@@ -14,11 +21,16 @@ form.addEventListener('submit', async (e) => {
             email
         });
 
-        alert('User registered successfully!');
-        console.log(response.data); 
-       
+       messageText.textContent = "Account created successfully!";
+       messageIcon.innerHTML = "✔️";
+       messageBox.classList.add('success');
+       messageBox.classList.remove('error');
     } catch (error) {
         const errorMessage = error.response && error.response.data ? error.response.data.message : 'An error occurred. Please try again!';
-        alert(errorMessage)
+
+        messageText.textContent = errorMessage;
+        messageIcon.innerHTML = "❌";
+        messageBox.classList.add('error');
+        messageBox.classList.remove('success');
     }
 });
