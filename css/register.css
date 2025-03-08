@@ -61,9 +61,7 @@ body {
 }
 
 .loginbox button {
-    padding: 10px 20px;
     width: 100%;
-    box-sizing: border-box;
 }
 
 .usernameinput, .passwordinput, .emailinput {
@@ -81,7 +79,6 @@ body {
     color: white;
     transition: background-color 0.3s;
     margin: 10px;
-    padding: 10px;
     border-radius: 5px;
     border: none;
 }

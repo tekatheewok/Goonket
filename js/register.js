@@ -36,3 +36,4 @@ form.addEventListener('submit', async (e) => {
         messageBox.style.opacity = 1;
     }, 50);
 });
+
