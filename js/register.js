@@ -41,8 +41,11 @@ form.addEventListener('submit', async (e) => {
 
 
 
+    messageBox.style.opacity = 1;
+}, 50);
+
 document.getElementById("submit").onclick = function() {
     var newDiv = document.createElement("div");
     newDiv.className = "message-box"
     document.body.appendChild(newDiv); 
-  };
+};
