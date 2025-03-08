@@ -82,7 +82,7 @@ body {
 }
 
 .submit {
-    width: 300px;
+    width: 100px;
     background-color: #32a3ac;
     color: white;
     transition: background-color 0.3s;
