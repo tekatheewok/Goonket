@@ -38,30 +38,11 @@ form.addEventListener('submit', async (e) => {
 
    
    
-    // Create a new div element
-    var newDiv = document.createElement("div");
-  
-    // Set attributes or styles for the new div (optional)
-    newDiv.style.width = "100px";
-    newDiv.style.height = "100px";
-    newDiv.style.backgroundColor = "lightblue";
-    newDiv.textContent = "New Div";
-  
-    // Append the new div to the body or another element
-    document.body.appendChild(newDiv); 
-});
 
 
-document.getElementById("myElement").onclick = function() {
-    // Create a new div element
+
+document.getElementById("submit").onclick = function() {
     var newDiv = document.createElement("div");
-  
-    // Set attributes or styles for the new div (optional)
-    newDiv.style.width = "100px";
-    newDiv.style.height = "100px";
-    newDiv.style.backgroundColor = "lightblue";
-    newDiv.textContent = "New Div";
-  
-    // Append the new div to the body or another element
+    newDiv.className = "message-box"
     document.body.appendChild(newDiv); 
   };
