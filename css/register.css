@@ -149,7 +149,7 @@ body {
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
     height: 60px;
     width: 120px;
-    margin: 20px;
+    margin: 30px;
 }
 
 
@@ -196,4 +196,5 @@ body {
     color: black;
     margin: 20px;
     font-weight: bold;
+    overflow: hidden;
 }
