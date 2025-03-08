@@ -152,6 +152,10 @@ body {
     margin: 15px;
 }
 
+.faq-btn{
+    margin-right: 20px;
+}
+
 
 
 .home-btn:hover, .play-btn:hover, .about-btn:hover, .contact-btn:hover, .faq-btn:hover {
