@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="/css/login.css">
     <link rel="icon" href="goonket logo v2.ico" type="image/x-icon">
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script src="js/register.js"></script>
 </head>
 
 <body>
@@ -21,19 +20,19 @@
     <div class="container">
         <div class="login-box">
             <h1>Register</h1>
-            <form class="login-form">
+            <form class="login-form" id="registerForm">
                 <img src="goonket logo v2.ico" class="logo" alt="Goonket Logo">
                 <div class="textbox">
-                    <input type="text" class="usernameinput" required>
+                    <input type="text" id="username" placeholder="Username" class="usernameinput" required>
                 </div>
                 <div class="passwordbox">
-                    <input type="password" class="passwordinput" required>
+                    <input type="password" id="password" placeholder="Password" class="passwordinput" required>
                 </div>
                 <div class="loginbox">
-                    <button type="submit" class="submit">Log in</button>
+                    <button type="submit" class="submit">Register</button>
                 </div>
             </form>
-            <p class="registernowtxt">Don't have a account? <a class="registernow" href="/register">Register now</a></p>
+            <p class="registernowtxt">Already have an account? <a class="registernow" href="/login">Login now</a></p>
         </div>
     </div>
     <script src="js/register.js"></script>
