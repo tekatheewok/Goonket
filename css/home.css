@@ -53,21 +53,6 @@ body {
     border-radius: 15px;
 }
 
-.profile-image .header{
-    width: 100px;
-    height: 100px;
-    object-fit: cover;
-    align-items: flex-start;
-    margin-left: 20px;
-}
-
-.footer {
-    position: fixed;
-    font-size: 0.8em;
-    left: 10px;
-    bottom: 10px;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -106,6 +91,13 @@ body {
     margin-right: 40px;
 }
 
+.footer {
+    position: fixed;
+    font-size: 0.8em;
+    left: 10px;
+    bottom: 10px;
+}
+
 .footer-hr {
     border: 1px solid black;
     width: 70% ;
@@ -114,8 +106,7 @@ body {
     margin-bottom: 10px;
 }
 
-
-.hellotxt{
+.hellotxt {
     margin-top: 10px;
 }
 
