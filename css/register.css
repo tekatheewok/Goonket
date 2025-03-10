@@ -142,18 +142,18 @@ body {
 .home-btn, .play-btn, .about-btn, .contact-btn, .faq-btn {
     background-color: #55f1f1; 
     border: none;
-    padding: 2% 4%;
+    padding: 10px 20px;
     font-size: 1em;
     cursor: pointer;
     border-radius: 10px;
     transition: background-color 0.3s ease, border 0.3s ease, color 0.3s ease;
-    height: 10%;
-    width: 20%;
-    margin: 3%;
+    height: 60px;
+    width: 120px;
+    margin: 15px;
 }
 
-.faq-btn {
-    margin-right: 5%;
+.faq-btn{
+    margin-right: 30px;
 }
 
 
