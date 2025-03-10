@@ -16,6 +16,8 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 10px;
     width: 400px;
     padding: 40px;
     border: 1px solid #ccc;
