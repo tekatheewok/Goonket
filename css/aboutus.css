@@ -21,3 +21,28 @@
     flex-direction: column;
     justify-content: center;
 }
+
+
+.item1-txt {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item2-txt {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.item3-txt {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.popupinfo1 {
+    width: 33%;
+    height: 50%;
+    border: 1px solid red;
+}
