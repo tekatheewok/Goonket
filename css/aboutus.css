@@ -8,18 +8,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 20%;
 }
 
 .item2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 20%;
 }
 
 .item3 {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 20%;
 }
 
 
