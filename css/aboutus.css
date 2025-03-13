@@ -1,20 +1,10 @@
-.html {
-    height: 100%;
-    width: 100%;
-}
 
-.body {
-    height: 100%;
-    width: 100%;
-}
 
 
 .items {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100%;
-    width: 100%;
 }
 
 .item1 {
