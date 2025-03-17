@@ -5,6 +5,11 @@ body, html {
     padding: 0;
 }
 
+
+.tab-icon {
+    height: 100%;
+    width: 100%;
+}
 .items {
     display: flex;
     flex-direction: row;
