@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    height: 100%;
 }
 
 .item1 {
@@ -34,37 +35,39 @@
 
 .item1-txt {
     border: 1px solid black;
-    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
 }
 
 .item2-txt {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    width: 20%;
+    width: 100%;
 }
 
 .item3-txt {
     border: 1px solid black;
     padding: 10px;
     margin: 10px;
-    width: 20%;
+    width: 100%;
 }
 
 .popupinfo1 {
-    width: 200px;
+    width: 100%;
     height: 50%;
     border: 1px solid red;
 }
 
 .popupinfo2 {
-    width: 200px;
+    width: 100%;
     height: 50%;
     border: 1px solid red;
 }
 
 .popupinfo3 {
-    width: 200px;
+    width: 100%;
     height: 50%;
     border: 1px solid red;
 }
