@@ -118,24 +118,30 @@ body {
 }
 
 
-.JM-btn{
+.JM-btn {
     display: flex;
-    bottom: 0px;
-    height: 200px;
-    width: 100%;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    bottom: 20px; /* Adjust as needed */
+    width: 100%;
+    height: auto; /* Adjust height to auto */
 }
 
-.JASONMURRAY{
-    width: 100px;
-    height: 100px;
+.JASONMURRAY {
+    width: 150px; /* Increase width */
+    height: 50px; /* Adjust height */
     background-color: purple;
     color: white;
-
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.JASONMURRAY:hover{
+.JASONMURRAY:hover {
+    background-color: darkviolet;
     cursor: pointer;
 }
 
