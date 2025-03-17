@@ -118,5 +118,30 @@ body {
 }
 
 
+.JM-btn{
+    display: flex;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.JASONMURRAY{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    color: white;
+
+}
+
+.JASONMURRAY:hover{
+    cursor: pointer;
+}
+
+.jasonimg {
+    height: 100%;
+    width: 100%;
+}
 
 
