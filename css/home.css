@@ -77,7 +77,7 @@ body {
     gap: 30px; 
 }
 
-.login-button, .play-btn {
+.login-button, .play-btn .aboutus-btn, .contact-btn, .FAQ-btn {
     background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
