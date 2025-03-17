@@ -89,12 +89,12 @@ body {
     width: 120px;
 }
 
-.login-button:hover, .play-btn:hover {
+.login-button:hover, .play-btn:hover, .aboutus-btn, .contact-btn, .FAQ-btn {
     background-color: #14cedb; 
     color: white;
 }
 
-.play-btn {
+.FAQ-btn {
     margin-right: 40px;
 }
 
