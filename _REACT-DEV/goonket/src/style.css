@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito");
+
+:root {
+
+}
+
+* {
+  font-family: "Nunito", Arial, sans-serif;
+  color: black; /* temporary, change to white at some point */
+}
+
+body {
+  display: flex;
+  margin: 0;
+}
