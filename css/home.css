@@ -141,6 +141,12 @@ body {
 .item-1-p {
     margin-right: 20px;
     font-size: 2em;
+    width: 60%;
+}
+
+.item-1-profile-img {
+    height: 200px;
+    width: 20%;
 }
 
 
