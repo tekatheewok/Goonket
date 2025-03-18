@@ -77,7 +77,7 @@ body {
     gap: 30px; 
 }
 
-.login-button, .play-btn, .aboutus-btn, .contact-btn, .FAQ-btn, .home-btn {
+.login-button, .play-btn, .aboutus-btn, .contact-btn, .FAQ-btn, .home-btn, .mc-btn {
     background-color: #55f1f1; 
     border: none;
     padding: 10px 20px;
@@ -89,7 +89,7 @@ body {
     width: 120px;
 }
 
-.login-button:hover, .play-btn:hover, .aboutus-btn:hover, .contact-btn:hover, .FAQ-btn:hover, .home-btn:hover {
+.login-button:hover, .play-btn:hover, .aboutus-btn:hover, .contact-btn:hover, .FAQ-btn:hover, .home-btn:hover, .mc-btn:hover {
     background-color: #14cedb; 
     color: white;
 }
