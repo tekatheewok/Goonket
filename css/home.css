@@ -122,15 +122,12 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 50px;
-    padding: 30px;
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
 
 .item-1-title {
-    font-size: 2em;
     font-weight: bold;
-
 }
 
 
