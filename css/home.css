@@ -117,7 +117,7 @@ body {
     margin-top: 10px;
 }
 
-.item-1-container {
+.temp-info-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -125,8 +125,25 @@ body {
     border-bottom: 1px solid black;
     border-top: 1px solid black;
 }
+
+.item-1 {
+    display: flex;
+    width: 60%;
+    height: 200px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+
 /*
-.item-1-title {
+.temp-info-1 {
     font-weight: bold;
 }
 */
