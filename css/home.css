@@ -128,11 +128,15 @@ body {
 
 .item-1 {
     display: flex;
+    flex-direction: row;
     width: 60%;
     height: 200px;
     margin-right: 20%;
     margin-left: 20%;
     margin-top: 100px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+
 }
 
 
