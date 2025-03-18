@@ -117,27 +117,19 @@ body {
     margin-top: 10px;
 }
 
-
-.JM-btn {
+.item-1-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    position: fixed;
-    bottom: 20px; /* Adjust as needed */
-    width: 100%;
-    height: auto; /* Adjust height to auto */
+    margin-top: 50px;
+    padding: 30px;
+    border: 1px solid black;
 }
 
-.JASONMURRAY {
-    width: 150px; /* Increase width */
-    height: 50px; /* Adjust height */
-    background-color: purple;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.item-1-title {
+    font-size: 2em;
+    font-weight: bold;
+
 }
 
 
