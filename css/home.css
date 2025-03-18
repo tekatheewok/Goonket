@@ -149,10 +149,13 @@ body {
     align-self: flex-end;
     height: 200px;
     width: 20%;
+    
 }
 .item-1-profile-img {
     height: 200px;
     width: 100%;
+    margin: none;
+    padding: none;
 }
 
 
