@@ -1,15 +1,64 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito");
-
-:root {
-
-}
+@import url("https://fonts.googleapis.com/css2?family=Titan One");
 
 * {
   font-family: "Nunito", Arial, sans-serif;
-  color: black; /* temporary, change to white at some point */
+  text-align: center;
 }
 
 body {
   display: flex;
   margin: 0;
+}
+
+/* CLASSES */
+
+.content-section {
+  width: 100vw;
+  height: 250px;
+}
+
+.center-content {
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.vertical-stack {
+  flex-direction: column;
+}
+
+/* PAGE ELEMENTS */
+
+@keyframes header-bg {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100px 100px;
+  }
+}
+
+#header {
+  background-color: #0bc2cf;
+  background-image: url("assets/bg-square.svg");
+  background-size: 100px;
+  padding: 20px 0;
+  animation: header-bg 3s linear infinite;
+}
+
+.header-item {
+  color: white;
+  margin: 10px;
+}
+
+#header-title {
+  font-family: "Titan One", arial, sans-serif;
+  font-weight: lighter;
+  font-size: 100px;
+}
+
+#header-desc {
+  font-size: 25px;
 }
