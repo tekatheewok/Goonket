@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>I ♥ JM</title>
+    <link rel="favicon" href="_REACT-DEV/goonket/assets/favicon.ico" type="image/x-icon">
+    <style>
+      body {
+        display: flex;
+        background-color: black;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+      }
+      
+      video {
+        display: none;
+        height: 100vh;
+      }
+
+      button {
+        display: flex;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <video id="video" src="_REACT-DEV/goonket/assets/jm.mp4"></video>
+    <button id="button">press me for jm!!</button>
+    <script>
+      const button = document.getElementById("button");
+      const video = document.getElementById("video");
+      button.addEventListener("click", () => {
+        button.style.display = "none";
+        video.style.display = "flex";
+        video.loop = true;
+        video.play();
+      });
+    </script>
+  </body>
+</html>
