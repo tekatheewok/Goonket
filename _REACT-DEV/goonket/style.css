@@ -95,3 +95,10 @@ button:hover {
 #header-desc {
   font-size: 25px;
 }
+
+/* MAINFRAME */
+
+#mainframe-content-box {
+  width: 300px;
+  height: 300px;
+}
