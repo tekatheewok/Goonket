@@ -49,11 +49,13 @@ h1 {
 }
 
 button {
-  width: 300px;
   height: 45px;
   border-radius: 5px;
   border: 2px solid white;
-  background-color: #0bc2cf;
+  padding: 0 75px;
+  background: none;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px white;
   transition: linear 0.1s;
 }
 
@@ -81,6 +83,10 @@ button:hover {
   animation: header-bg 3s linear infinite;
 }
 
+.header-content-section > button {
+  color: white;
+}
+
 .header-item {
   color: white;
   margin: 10px;
@@ -94,11 +100,4 @@ button:hover {
 
 #header-desc {
   font-size: 25px;
-}
-
-/* MAINFRAME */
-
-#mainframe-content-box {
-  width: 300px;
-  height: 300px;
 }
