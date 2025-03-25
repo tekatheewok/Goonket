@@ -2,11 +2,13 @@ import { StrictMode } from "react"
 import { createRoot } from "react-dom/client"
 import { PageButton } from "./global.jsx"
 
-function leftpage() {
+function Leftpage() {
     return(
         <div className="left-login-header">
-            <h1 className="top-left-goonket-logo">GOONKET</h1>
-            <button className="sign-up-btn"></button>
+            <div className="top-left-logo">
+            <h1 className="top-left-logo-txt">GOONKET</h1>
+            </div>
+            <button className="sign-up-btn">adgsdg</button>
         </div>
     )
 }
@@ -14,7 +16,6 @@ function leftpage() {
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Header/>
-    <MainContent/>
+    <Leftpage/>
   </StrictMode>
 )
