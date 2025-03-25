@@ -5,7 +5,7 @@ import { PageButton } from "./global.jsx"
 function leftpage() {
     return(
         <div className="left-login-header">
-            <h1 className="top-left-goonket-logo"
+            <h1 className="top-left-goonket-logo">GOONKET</h1>
             <button className="sign-up-btn"></button>
         </div>
     )
