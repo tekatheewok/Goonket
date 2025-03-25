@@ -10,8 +10,8 @@ function Header() {
         <p id="header-desc" className="header-item">Goonket is a site that combines learning with play.</p>
       </div>
       <div class="content-section center-content vertical-stack header-content-section">
-        <button>Log in</button>
-        <button>Sign up</button>
+        <button className="home-log-in-direct-btn">Log in</button>
+        <button className="home-sign-up-direct-btn">Sign up</button>
       </div>
     </div>
   )
