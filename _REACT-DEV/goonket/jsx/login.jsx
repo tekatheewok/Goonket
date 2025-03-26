@@ -4,13 +4,16 @@ import { PageButton } from "./global.jsx"
 
 function Leftpage() {
     return(
+      <div className="login-form">
         <div className="left-login-header">
             <div className="top-left-logo">
             <h1 className="top-left-logo-txt">GOONKET</h1>
             </div>
             <button className="sign-up-btn">adgsdg</button>
         </div>
+     </div>
     )
+   
 }
 
 
